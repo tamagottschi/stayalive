@@ -19,7 +19,7 @@ Generating a **StayAlive** app means that **StayAlive** is framework written in 
 
 The customer should install its specific _StayAlive App_ on its personal workstation. After the _StayAlive app_ have been started by the customer the customer can open web browser and start the web application provided by the _StayAlive app_ locally. The _StayAlive app_ is a control app, which provides functions to do a detailed health check of your backend service, and functions to control your service.
 
-![StayAlive App User Interface](StayaliveUI.png)
+![StayAlive App User Interface](StayAliveUI.png)
 
 Additionally the _StayAlive app_ can be installed in the cloud as a nano service, e.g. using Amazon AWS Lambda. The _StayAlive app_ works as a _nano watcher_, which do regularly basic health checks of your backend service. Error conditions will be sent by email to the customer. Such a nano service will be inexpensive and requires no additional resources like an additional hosted server specially for operations management.
 
